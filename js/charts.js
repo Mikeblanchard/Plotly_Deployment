@@ -173,14 +173,14 @@ function buildCharts(sample) {
       type: "indicator",
       mode: "gauge+number",
       gauge: {
-        axis: {range: [null,10]},
+        axis: {range: [null,10], tickwidth:1},
         bar: {color: "black"},
         steps: [
           {range: [0, 2], color: "red"},
-          {range: [2, 4], color: "orange"},
-          {range: [4, 6], color: "yellow"},
-          {range: [6, 8], color: "lightgreen"},
-          {range: [8, 10], color: "green"}]
+          {range: [2, 4], color: "purple"},
+          {range: [4, 6], color: "green"},
+          {range: [6, 8], color: "blue"},
+          {range: [8, 10], color: "yellow"}]
         }
       }
     ];
@@ -188,13 +188,13 @@ function buildCharts(sample) {
     // 5. Create the layout for the gauge chart.
 
     var gaugeLayout = {
-      width: 500,
-      height: 460,
+      width: 600,
+      height: 550,
       margin: {t: 0, b: 0}
     };
 
     // 6. Use Plotly to plot the gauge data and layout.
-    
+
     Plotly.newPlot("gauge", gaugeData, gaugeLayout);
   });
 }
