@@ -8,7 +8,7 @@
 |----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
 | ![](https://github.com/Mikeblanchard/plotly_deployment/blob/main/Resources/plotly_1.png)| ![](https://github.com/Mikeblanchard/plotly_deployment/blob/main/Resources/plotly_3.png)|
 
-<p align="center">|Bubble Chart|
-|<p align="center">
+<p align="center">Bubble Chart
+<p align="center">
   <img src="https://github.com/Mikeblanchard/plotly_deployment/blob/main/Resources/plotly_2.png" alt="Sublime's custom image"/>
-</p>|
+</p>
